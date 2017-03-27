@@ -1,5 +1,5 @@
 .background {
-	/*height: 100vh;*/
+	height: 100vh;
 	width: 100%;
 	background-image: url("./img/main-bg.jpeg");
 	background-repeat:no-repeat;
@@ -24,7 +24,7 @@
 }
 
 .main-section {
-	height:100%;
+	width: 100%;
 	display:flex;
 	flex-wrap: wrap;
 	align-content: center;
@@ -65,7 +65,7 @@
 	border-radius: 50%;
 	border: none;
 	background-color: white;
-	
+
 
 }
 
