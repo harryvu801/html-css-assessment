@@ -1,11 +1,13 @@
 .background {
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	background-image: url("./img/main-bg.jpeg");
 	background-repeat:no-repeat;
 	background-size:cover;
-	position: relative;
-	background-position: center
+	background-position: center;
+	display: flex;
+	align-content: space-between;
+	flex-wrap: wrap;
 }
 
 .header {
@@ -49,19 +51,21 @@
 }
 
 .bottom {
+ 	height: 50px;
+	width: 100%;
 	display: flex;
-	align-self: flex-end;
+	justify-content: center;
+
 }
 
 .button {
   background-image: url('./img/down-arrow.svg');
 	height: 50px;
 	width: 50px;
-	margin-top: 200px;
 	border-radius: 50%;
 	border: none;
 	background-color: white;
-	align-self: flex-end;
+	
 
 }
 
