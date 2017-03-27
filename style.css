@@ -1,0 +1,112 @@
+.background {
+	height: 100vh;
+	width: 100%;
+	background-image: url("./img/main-bg.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.header {
+	height: 60px;
+	width: 100%;
+	padding-right: 12vw;
+	padding-left: 12vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	font-family: 'Baloo Bhaina', cursive;
+	font-size: 30px;
+	color:white;
+	position: fixed;
+}
+
+.main-section {
+	height:100%;
+	padding-top: 60px;
+	display:flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	font-family: 'Baloo Bhaina', cursive;
+	color: white;
+
+}
+
+.big-word {
+	display:flex;
+	justify-content: center;
+	height: 90px;
+	width: 100%;
+	font-size: 120px;
+}
+
+.smaller-words {
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	width: 100%;
+	font-size: 35px;
+}
+
+.button {
+  background-image: url('./img/down-arrow.svg');
+	height: 50px;
+	width: 50px;
+	margin-bottom: 25px;
+	border-radius: 50%;
+	border: none;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+
+}
+
+.mini-header {
+	display: none;
+	height: 60px;
+	width: 100%;
+	padding-right: 12vw;
+	padding-left: 12vw;
+	justify-content: space-between;
+	align-items: flex-end;
+	position: fixed;
+}
+
+.nav-menu {
+	background-image: url('./img/nav.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+
+.social-links {
+
+	width: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.twitter {
+	background-image: url('./img/twitter.svg');
+	height: 20px;
+	width: 20px;
+}
+
+.facebook {
+	background-image: url('./img/facebook.svg');
+	height: 20px;
+	width: 20px;
+}
+
+@media (max-width: 700px){
+	.mini-header {
+		display: flex;
+	}
+
+	.header {
+		display: none;
+	}
+}
